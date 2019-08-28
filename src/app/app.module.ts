@@ -15,6 +15,7 @@ import { AngularFireDatabaseModule } from "angularfire2/database";
 import { environment } from "../environments/environment";
 import { phonebookListComponent } from './phonebook-list/phonebook-list.component';
 import { PhonebookService } from "./shared/phonebook.service";
+import { ImportantNumbersComponent } from './important-numbers/important-numbers.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PhonebookService } from "./shared/phonebook.service";
     HeroComponent,
     FooterComponent,
     PhonebookComponent,
-    phonebookListComponent
+    phonebookListComponent,
+    ImportantNumbersComponent
   ],
   imports: [
     BrowserModule,
